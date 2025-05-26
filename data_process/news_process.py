@@ -294,10 +294,10 @@ if __name__ == "__main__":
                          csv_news_path="../data/ACL18/news_original/",)
 
         # get news embedding
-        get_news_embedding(csv_news_path="/home/users/liuyu/mypro/data/ACL18/news_original/csv/",
-                           embedding_path="/home/users/liuyu/mypro/data/ACL18/news_embedding/",
-                           local_model_path="/home/users/liuyu/.cache/modelscope/hub/bert-base-cased/",
-                           trading_date_list="/home/users/liuyu/mypro/data/ACL18/trading_date_list.csv",
+        get_news_embedding(csv_news_path="../data/ACL18/news_original/csv/",
+                           embedding_path="../data/ACL18/news_embedding/",
+                           local_model_path="your model path",
+                           trading_date_list="../data/ACL18/trading_date_list.csv",
                            encoder_type="gru",
                            use_attention=True)
 
